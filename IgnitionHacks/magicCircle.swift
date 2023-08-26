@@ -31,67 +31,33 @@ struct magicCircle: View {
                 .overlay(
            
                     VStack {
-            Text("Magic Circle or Magic Ring")
+            Text("Magic Circle (or Magic Ring)")
                 .font(.custom("Optima-Regular", size: 35))
                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                 .multilineTextAlignment(.center)
                 .padding([.top, .leading, .trailing])
                         
                       
-                        Text("Half Double Crochets are very similar to Double Crochets.")
+                        Text("Magic Circles are commonly used for starting circular projects. They are known to be a bit tricky so don't give up!")
                             .multilineTextAlignment(.center)
                             .font(.custom("Optima-Regular", size: 20))
                             .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                             .multilineTextAlignment(.center)
                             .padding(.horizontal)
                         
-                        Text("Written Instructions")
+                        Text("This one is difficult to explain in words so this video will help you.")
                             .multilineTextAlignment(.center)
                             .font(.custom("Optima-Regular", size: 20))
                             .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                             .multilineTextAlignment(.center)
                             .padding([.top, .leading, .trailing])
                         
-                        Text("1. Yarn over from back to front.")
-                            .multilineTextAlignment(.center)
-                            .font(.custom("Optima-Regular", size: 15))
-                            .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal)
-                        
-                        Text("2. Insert the hook into the next stitch. Put the tip of the hook under both of the loops at the top of the stitch.")
-                            .multilineTextAlignment(.center)
-                            .font(.custom("Optima-Regular", size: 15))
-                            .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal)
-                        
-                        Text("3. Yarn over, and pull the yarn through the stitch.")
-                            .multilineTextAlignment(.center)
-                            .font(.custom("Optima-Regular", size: 15))
-                            .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal)
-                        
-                        Text("4. Yarn over the hook again, and pull the yarn through all three loops on the hook.")
-                            .multilineTextAlignment(.center)
-                            .font(.custom("Optima-Regular", size: 15))
-                            .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal)
                       
-                        
-                        Text("Video Tutorial")
-                            .multilineTextAlignment(.center)
-                        .font(.custom("Optima-Regular", size: 20))
-                        .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                        .multilineTextAlignment(.center)
-                        .padding([.top, .leading, .trailing])
                         
                         WebView(urlString: "https://www.youtube.com/watch?v=zsWmVcp9RMU&t=0s")
                             .frame(width: 300.0, height: 300.0)
                         
-                        Text("Sources: Sarah Maker and The Woobles")
+                        Text("Sources: Lexie Loves Stitching")
                             .multilineTextAlignment(.center)
                         .font(.custom("Optima-Regular", size: 12))
                         .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
