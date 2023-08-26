@@ -95,6 +95,8 @@
 				B17E27D92A9A613200B65E6C /* hat.swift */,
 				B17F73252A9A424400D91523 /* handBook.swift */,
 				B17E27E32A9A7DF600B65E6C /* slipKnot.swift */,
+				B17E27E52A9A7E4300B65E6C /* chain.swift */,
+				B17E27E72A9A7E4F00B65E6C /* singleCrochet.swift */,
 				B17E27F72A9A804100B65E6C /* slipStitch.swift */,
 				B17E27F52A9A7FC500B65E6C /* doubleCrochet.swift */,
 				B17E27EF2A9A7F6800B65E6C /* hdCrochet.swift */,
@@ -102,8 +104,6 @@
 				B17E27ED2A9A7F0100B65E6C /* magicCircle.swift */,
 				B17E27E92A9A7ED600B65E6C /* increase.swift */,
 				B17E27EB2A9A7EE000B65E6C /* decrease.swift */,
-				B17E27E52A9A7E4300B65E6C /* chain.swift */,
-				B17E27E72A9A7E4F00B65E6C /* singleCrochet.swift */,
 				B11E74832A9972D500C5FF00 /* Assets.xcassets */,
 				B11E74852A9972D500C5FF00 /* Preview Content */,
 			);
