@@ -40,8 +40,8 @@ struct co: View {
                             
                             if showButton {
                                 NavigationLink(destination: handBook()) {
-                                    Text("Hand Book")
-                                        .font(.title)
+                                    Text("Beginner's Handbook")
+                                        .font(.custom("Optima-Regular", size: 20))
                                         .padding()
                                         .background(Color(red: 0.98, green: 0.643, blue: 0.703))
                                         .foregroundColor(Color(red: 0.502, green: 0.186, blue: 0.243))
@@ -53,10 +53,10 @@ struct co: View {
                             if showButton2 {
                                 NavigationLink(destination: hat()) {
                                     Text("Learn to Make a Beanie")
-                                        .font(.title)
+                                        .font(.custom("Optima-Regular", size: 20))
                                         .padding()
-                                        .background(Color.green)
-                                        .foregroundColor(.white)
+                                        .foregroundColor(Color.white)
+                                        .background(Color(hue: 0.544, saturation: 0.513, brightness: 0.86))
                                         .cornerRadius(10)
                                 }
                                 .position(x: 200, y: 200)
@@ -64,10 +64,10 @@ struct co: View {
                             
                             if showButton3 {
                                 NavigationLink(destination: Octopus()) {
-                                    Text("Learn to make an octopus")
-                                        .font(.title)
+                                    Text("Learn to make an Octopus")
+                                        .font(.custom("Optima-Regular", size: 20))
                                         .padding()
-                                        .background(Color.purple)
+                                        .background(Color(red: 0.935, green: 0.518, blue: 0.663))
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
@@ -76,11 +76,11 @@ struct co: View {
                             
                             if showButton4 {
                                 NavigationLink(destination: granny()) {
-                                    Text("Learn to make a granny square")
-                                        .font(.title)
+                                    Text("Learn to make a Granny Square")
+                                        .font(.custom("Optima-Regular", size: 20))
                                         .padding()
-                                        .background(Color.orange)
-                                        .foregroundColor(.white)
+                                        .background(Color(red: 0.956, green: 0.717, blue: 0.928))
+                                        .foregroundColor(Color(red: 0.22, green: 0.588, blue: 0.747))
                                         .cornerRadius(10)
                                 }
                                 .position(x: 200, y: 200)
@@ -88,10 +88,10 @@ struct co: View {
                             
                             if showButton5 {
                                 NavigationLink(destination: sprout()) {
-                                    Text("Learn to make a sprout")
-                                        .font(.title)
+                                    Text("Learn to make a Sprout")
+                                        .font(.custom("Optima-Regular", size: 20))
                                         .padding()
-                                        .background(Color.purple)
+                                        .background(Color(red: 0.143, green: 0.491, blue: 0.153))
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
@@ -100,11 +100,11 @@ struct co: View {
                             
                             if showButton6 {
                                 NavigationLink(destination: sweater()) {
-                                    Text("Learn to make a sweater")
-                                        .font(.title)
+                                    Text("Learn to make a Sweater")
+                                        .font(.custom("Optima-Regular", size: 20))
                                         .padding()
-                                        .background(Color.purple)
-                                        .foregroundColor(.white)
+                                        .foregroundColor(Color(red: 0.664, green: 0.213, blue: 0.259))
+                                        .background(Color(red: 0.862, green: 0.512, blue: 0.241))
                                         .cornerRadius(10)
                                 }
                                 .position(x: 200, y: 200)

@@ -17,6 +17,16 @@
 		B17E27DE2A9A66F900B65E6C /* granny.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27DD2A9A66F900B65E6C /* granny.swift */; };
 		B17E27E02A9A6AA200B65E6C /* sweater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27DF2A9A6AA200B65E6C /* sweater.swift */; };
 		B17E27E22A9A6AAD00B65E6C /* sprout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27E12A9A6AAD00B65E6C /* sprout.swift */; };
+		B17E27E42A9A7DF600B65E6C /* slipKnot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27E32A9A7DF600B65E6C /* slipKnot.swift */; };
+		B17E27E62A9A7E4300B65E6C /* chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27E52A9A7E4300B65E6C /* chain.swift */; };
+		B17E27E82A9A7E4F00B65E6C /* singleCrochet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27E72A9A7E4F00B65E6C /* singleCrochet.swift */; };
+		B17E27EA2A9A7ED600B65E6C /* increase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27E92A9A7ED600B65E6C /* increase.swift */; };
+		B17E27EC2A9A7EE000B65E6C /* decrease.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27EB2A9A7EE000B65E6C /* decrease.swift */; };
+		B17E27EE2A9A7F0100B65E6C /* magicCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27ED2A9A7F0100B65E6C /* magicCircle.swift */; };
+		B17E27F02A9A7F6800B65E6C /* hdCrochet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27EF2A9A7F6800B65E6C /* hdCrochet.swift */; };
+		B17E27F22A9A7F7700B65E6C /* cinchClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27F12A9A7F7700B65E6C /* cinchClosure.swift */; };
+		B17E27F62A9A7FC500B65E6C /* doubleCrochet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27F52A9A7FC500B65E6C /* doubleCrochet.swift */; };
+		B17E27F82A9A804100B65E6C /* slipStitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27F72A9A804100B65E6C /* slipStitch.swift */; };
 		B17F73262A9A424400D91523 /* handBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F73252A9A424400D91523 /* handBook.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +42,16 @@
 		B17E27DD2A9A66F900B65E6C /* granny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = granny.swift; sourceTree = "<group>"; };
 		B17E27DF2A9A6AA200B65E6C /* sweater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweater.swift; sourceTree = "<group>"; };
 		B17E27E12A9A6AAD00B65E6C /* sprout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprout.swift; sourceTree = "<group>"; };
+		B17E27E32A9A7DF600B65E6C /* slipKnot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slipKnot.swift; sourceTree = "<group>"; };
+		B17E27E52A9A7E4300B65E6C /* chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chain.swift; sourceTree = "<group>"; };
+		B17E27E72A9A7E4F00B65E6C /* singleCrochet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleCrochet.swift; sourceTree = "<group>"; };
+		B17E27E92A9A7ED600B65E6C /* increase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = increase.swift; sourceTree = "<group>"; };
+		B17E27EB2A9A7EE000B65E6C /* decrease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decrease.swift; sourceTree = "<group>"; };
+		B17E27ED2A9A7F0100B65E6C /* magicCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicCircle.swift; sourceTree = "<group>"; };
+		B17E27EF2A9A7F6800B65E6C /* hdCrochet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hdCrochet.swift; sourceTree = "<group>"; };
+		B17E27F12A9A7F7700B65E6C /* cinchClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cinchClosure.swift; sourceTree = "<group>"; };
+		B17E27F52A9A7FC500B65E6C /* doubleCrochet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doubleCrochet.swift; sourceTree = "<group>"; };
+		B17E27F72A9A804100B65E6C /* slipStitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slipStitch.swift; sourceTree = "<group>"; };
 		B17F73252A9A424400D91523 /* handBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +94,16 @@
 				B17E27DB2A9A63CF00B65E6C /* Octopus.swift */,
 				B17E27D92A9A613200B65E6C /* hat.swift */,
 				B17F73252A9A424400D91523 /* handBook.swift */,
+				B17E27E32A9A7DF600B65E6C /* slipKnot.swift */,
+				B17E27F72A9A804100B65E6C /* slipStitch.swift */,
+				B17E27F52A9A7FC500B65E6C /* doubleCrochet.swift */,
+				B17E27EF2A9A7F6800B65E6C /* hdCrochet.swift */,
+				B17E27F12A9A7F7700B65E6C /* cinchClosure.swift */,
+				B17E27ED2A9A7F0100B65E6C /* magicCircle.swift */,
+				B17E27E92A9A7ED600B65E6C /* increase.swift */,
+				B17E27EB2A9A7EE000B65E6C /* decrease.swift */,
+				B17E27E52A9A7E4300B65E6C /* chain.swift */,
+				B17E27E72A9A7E4F00B65E6C /* singleCrochet.swift */,
 				B11E74832A9972D500C5FF00 /* Assets.xcassets */,
 				B11E74852A9972D500C5FF00 /* Preview Content */,
 			);
@@ -159,13 +189,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11E74822A9972D400C5FF00 /* ContentView.swift in Sources */,
+				B17E27EC2A9A7EE000B65E6C /* decrease.swift in Sources */,
 				B17E27E22A9A6AAD00B65E6C /* sprout.swift in Sources */,
 				B17E27D82A9A55DD00B65E6C /* co.swift in Sources */,
 				B11E74802A9972D400C5FF00 /* IgnitionHacksApp.swift in Sources */,
+				B17E27F62A9A7FC500B65E6C /* doubleCrochet.swift in Sources */,
+				B17E27F22A9A7F7700B65E6C /* cinchClosure.swift in Sources */,
 				B17E27E02A9A6AA200B65E6C /* sweater.swift in Sources */,
+				B17E27EE2A9A7F0100B65E6C /* magicCircle.swift in Sources */,
+				B17E27EA2A9A7ED600B65E6C /* increase.swift in Sources */,
 				B17F73262A9A424400D91523 /* handBook.swift in Sources */,
+				B17E27F82A9A804100B65E6C /* slipStitch.swift in Sources */,
 				B17E27DA2A9A613200B65E6C /* hat.swift in Sources */,
+				B17E27E42A9A7DF600B65E6C /* slipKnot.swift in Sources */,
+				B17E27E82A9A7E4F00B65E6C /* singleCrochet.swift in Sources */,
+				B17E27E62A9A7E4300B65E6C /* chain.swift in Sources */,
 				B17E27DE2A9A66F900B65E6C /* granny.swift in Sources */,
+				B17E27F02A9A7F6800B65E6C /* hdCrochet.swift in Sources */,
 				B17E27DC2A9A63CF00B65E6C /* Octopus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
