@@ -9,51 +9,52 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        ZStack {
-            Color(red: 0.412, green: 0.063, blue: 0.41)
-                .ignoresSafeArea()
-                .overlay(
-            VStack {
-                
-                Text("Welcome to")
-                    .font(.custom("Optima-Regular", size: 24))
-                    .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                    .multilineTextAlignment(.center)
-                   
-                
-                Image("Logo")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .cornerRadius(6)
-                    .padding(.bottom)
-                    .scaledToFit()
-                    .frame(width: 250, height: 250)
-                    .clipped()
-                
-                Text("Beginners can learn how to crochet through simple patterns and resources.")
-                    .font(.custom("Optima-Regular", size: 18))
-                    .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
-                    .multilineTextAlignment(.center)
-                    .padding()
-                
-                NavigationLink(destination: mainMenu()) {
-                    Text("Start Learning")
-                    .font(.custom("Optima-Regular", size: 20))
-                    .font(.headline)
-                    .foregroundColor(Color(red: 0.5, green: 0.179, blue: 0.239))
-                    .padding()
-                    .background(Color(red: 0.991, green: 0.639, blue: 0.704))
-                    .cornerRadius(10)
-                    }
-                
-                
-                   
-                
+        NavigationStack {
+            ZStack {
+                Color(red: 0.412, green: 0.063, blue: 0.41)
+                    .ignoresSafeArea()
+                    .overlay(
+                        VStack {
+                            
+                            Text("Welcome to")
+                                .font(.custom("Optima-Regular", size: 24))
+                                .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
+                                .multilineTextAlignment(.center)
+                            
+                            
+                            Image("Logo")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(6)
+                                .padding(.bottom)
+                                .scaledToFit()
+                                .frame(width: 250, height: 250)
+                                .clipped()
+                            
+                            Text("Beginners can learn how to crochet through simple patterns and resources.")
+                                .font(.custom("Optima-Regular", size: 18))
+                                .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
+                                .multilineTextAlignment(.center)
+                                .padding()
+                            
+                            NavigationLink(destination: mainMenu()) {
+                                Text("Start Learning")
+                                    .font(.custom("Optima-Regular", size: 20))
+                                    .font(.headline)
+                                    .foregroundColor(Color(red: 0.5, green: 0.179, blue: 0.239))
+                                    .padding()
+                                    .background(Color(red: 0.991, green: 0.639, blue: 0.704))
+                                    .cornerRadius(10)
+                            }
+                            
+                            
+                            
+                            
+                            
+                        }
+                    )
                 
             }
-            )
-            
         }
     }
 }

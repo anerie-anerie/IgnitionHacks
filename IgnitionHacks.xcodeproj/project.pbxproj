@@ -12,6 +12,7 @@
 		B11E74842A9972D500C5FF00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11E74832A9972D500C5FF00 /* Assets.xcassets */; };
 		B11E74872A9972D500C5FF00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11E74862A9972D500C5FF00 /* Preview Assets.xcassets */; };
 		B12A95C92A999DE10051BB20 /* mainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12A95C82A999DE10051BB20 /* mainMenu.swift */; };
+		B17F73262A9A424400D91523 /* handBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F73252A9A424400D91523 /* handBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B11E74832A9972D500C5FF00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B11E74862A9972D500C5FF00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B12A95C82A999DE10051BB20 /* mainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainMenu.swift; sourceTree = "<group>"; };
+		B17F73252A9A424400D91523 /* handBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				B11E747F2A9972D400C5FF00 /* IgnitionHacksApp.swift */,
 				B11E74812A9972D400C5FF00 /* ContentView.swift */,
 				B12A95C82A999DE10051BB20 /* mainMenu.swift */,
+				B17F73252A9A424400D91523 /* handBook.swift */,
 				B11E74832A9972D500C5FF00 /* Assets.xcassets */,
 				B11E74852A9972D500C5FF00 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				B12A95C92A999DE10051BB20 /* mainMenu.swift in Sources */,
 				B11E74822A9972D400C5FF00 /* ContentView.swift in Sources */,
 				B11E74802A9972D400C5FF00 /* IgnitionHacksApp.swift in Sources */,
+				B17F73262A9A424400D91523 /* handBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

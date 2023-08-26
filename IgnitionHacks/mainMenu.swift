@@ -24,6 +24,8 @@ struct mainMenu: View {
                     .padding(.horizontal)
                 font(.custom("Optima-Regular", size: 10))
                 .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))
+                
+                Image("desk")
             }
             )
         }
