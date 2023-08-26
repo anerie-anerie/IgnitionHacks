@@ -21,7 +21,6 @@ struct ContentView: View {
                                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                 .multilineTextAlignment(.center)
                             
-                            
                             Image("Logo")
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
@@ -37,7 +36,7 @@ struct ContentView: View {
                                 .multilineTextAlignment(.center)
                                 .padding()
                           
-                            NavigationLink (destination: mainMenu()) {
+                            NavigationLink (destination: co()) {
                                     Text("Start Learning")
                                         .font(.custom("Optima-Regular", size: 20))
                                         .font(.headline)
