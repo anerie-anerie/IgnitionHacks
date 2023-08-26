@@ -17,7 +17,7 @@ struct handBook: View {
                         VStack {
                             
                             Text("Welcome to Learning Loops Handbook!")
-                                .font(.custom("Optima-Regular", size: 35))
+                                .font(Font.custom("Optima-Regular", size: 35))
                                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                 .multilineTextAlignment(.center)
                                 .padding([.top, .leading, .trailing])
