@@ -13,6 +13,7 @@ struct mainMenu: View {
             Color(red: 0.5, green: 0.179, blue: 0.239)
                 .ignoresSafeArea()
                 .overlay(
+           
             VStack {
                 Text("Learning Loops Desk")
                     .font(.custom("Optima-Regular", size: 30))
@@ -26,6 +27,7 @@ struct mainMenu: View {
                 .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))
                 
                 Image("desk")
+                
             }
             )
         }

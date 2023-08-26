@@ -36,28 +36,28 @@ struct ContentView: View {
                                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                 .multilineTextAlignment(.center)
                                 .padding()
-                            
-                            NavigationLink(destination: mainMenu()) {
-                                Text("Start Learning")
-                                    .font(.custom("Optima-Regular", size: 20))
-                                    .font(.headline)
-                                    .foregroundColor(Color(red: 0.5, green: 0.179, blue: 0.239))
-                                    .padding()
-                                    .background(Color(red: 0.991, green: 0.639, blue: 0.704))
-                                    .cornerRadius(10)
+                          
+                            NavigationLink (destination: mainMenu()) {
+                                    Text("Start Learning")
+                                        .font(.custom("Optima-Regular", size: 20))
+                                        .font(.headline)
+                                        .foregroundColor(Color(red: 0.5, green: 0.179, blue: 0.239))
+                                        .padding()
+                                        .background(Color(red: 0.991, green: 0.639, blue: 0.704))
+                                        .cornerRadius(10)
+                                }
+                                
+                                
                             }
                             
-                            
-                            
-                            
+                            )
                             
                         }
-                    )
-                
             }
         }
     }
-}
+                        
+                        
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
