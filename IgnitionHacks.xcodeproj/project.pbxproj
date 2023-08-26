@@ -13,6 +13,7 @@
 		B11E74872A9972D500C5FF00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11E74862A9972D500C5FF00 /* Preview Assets.xcassets */; };
 		B17E27D82A9A55DD00B65E6C /* co.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27D72A9A55DD00B65E6C /* co.swift */; };
 		B17E27DA2A9A613200B65E6C /* hat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27D92A9A613200B65E6C /* hat.swift */; };
+		B17E27DC2A9A63CF00B65E6C /* Octopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27DB2A9A63CF00B65E6C /* Octopus.swift */; };
 		B17F73262A9A424400D91523 /* handBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F73252A9A424400D91523 /* handBook.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		B11E74862A9972D500C5FF00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B17E27D72A9A55DD00B65E6C /* co.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = co.swift; sourceTree = "<group>"; };
 		B17E27D92A9A613200B65E6C /* hat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hat.swift; sourceTree = "<group>"; };
+		B17E27DB2A9A63CF00B65E6C /* Octopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Octopus.swift; sourceTree = "<group>"; };
 		B17F73252A9A424400D91523 /* handBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 				B11E747F2A9972D400C5FF00 /* IgnitionHacksApp.swift */,
 				B11E74812A9972D400C5FF00 /* ContentView.swift */,
 				B17E27D72A9A55DD00B65E6C /* co.swift */,
+				B17E27DB2A9A63CF00B65E6C /* Octopus.swift */,
 				B17E27D92A9A613200B65E6C /* hat.swift */,
 				B17F73252A9A424400D91523 /* handBook.swift */,
 				B11E74832A9972D500C5FF00 /* Assets.xcassets */,
@@ -151,6 +154,7 @@
 				B11E74802A9972D400C5FF00 /* IgnitionHacksApp.swift in Sources */,
 				B17F73262A9A424400D91523 /* handBook.swift in Sources */,
 				B17E27DA2A9A613200B65E6C /* hat.swift in Sources */,
+				B17E27DC2A9A63CF00B65E6C /* Octopus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
