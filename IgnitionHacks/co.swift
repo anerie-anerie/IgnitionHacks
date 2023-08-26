@@ -24,7 +24,15 @@ struct co: View {
                     .overlay(
                         VStack {
                             Text("Learning Loops Desk")
-                                .foregroundColor(Color.white)
+                                .font(.custom("Optima-Regular", size: 35))
+                                .foregroundColor(Color(red: 1.0, green: 0.923, blue: 0.798))
+                                .multilineTextAlignment(.center)
+                            
+                            Text("Click the items on this desk to view possible crochet projects and a beginner's handbook to help you start your crochet journey!")
+                                .font(.custom("Optima-Regular", size: 15))
+                                .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))
+                                .multilineTextAlignment(.center)
+                                .padding([.top, .leading, .trailing])
                             
                             Image("desk")
                                 .resizable()
@@ -35,11 +43,11 @@ struct co: View {
                                     Text("Hand Book")
                                         .font(.title)
                                         .padding()
-                                        .background(Color.blue)
-                                        .foregroundColor(.white)
+                                        .background(Color(red: 0.98, green: 0.643, blue: 0.703))
+                                        .foregroundColor(Color(red: 0.502, green: 0.186, blue: 0.243))
                                         .cornerRadius(10)
                                 }
-                                .position(x: 200, y: 300)
+                                .position(x: 200, y: 200)
                             }
                             
                             if showButton2 {
@@ -51,7 +59,7 @@ struct co: View {
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
-                                .position(x: 200, y: 300)
+                                .position(x: 200, y: 200)
                             }
                             
                             if showButton3 {
@@ -63,7 +71,7 @@ struct co: View {
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
-                                .position(x: 200, y: 300)
+                                .position(x: 200, y: 200)
                             }
                             
                             if showButton4 {
@@ -75,7 +83,7 @@ struct co: View {
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
-                                .position(x: 200, y: 300)
+                                .position(x: 200, y: 200)
                             }
                             
                             if showButton5 {
@@ -87,7 +95,7 @@ struct co: View {
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
-                                .position(x: 200, y: 300)
+                                .position(x: 200, y: 200)
                             }
                             
                             if showButton6 {
@@ -99,7 +107,7 @@ struct co: View {
                                         .foregroundColor(.white)
                                         .cornerRadius(10)
                                 }
-                                .position(x: 200, y: 300)
+                                .position(x: 200, y: 200)
                             }
                         }
                     )
@@ -107,7 +115,7 @@ struct co: View {
             .onTapGesture { location in
                 tapLocation = location
                 if let tapLocation = tapLocation {
-                    if 150..<245 ~= tapLocation.x && 410..<550 ~= tapLocation.y {
+                    if 150..<245 ~= tapLocation.x && 480..<580 ~= tapLocation.y {
                         withAnimation {
                             showButton.toggle()
                             showButton2 = false
@@ -116,7 +124,7 @@ struct co: View {
                             showButton5 = false
                             showButton6 = false
                         }
-                    } else if 275..<370 ~= tapLocation.x && 420..<530 ~= tapLocation.y {
+                    } else if 275..<370 ~= tapLocation.x && 490..<580 ~= tapLocation.y {
                         withAnimation {
                             showButton2.toggle()
                             showButton = false
@@ -125,7 +133,7 @@ struct co: View {
                             showButton5 = false
                             showButton6 = false
                         }
-                    } else if 30..<120 ~= tapLocation.x && 440..<520 ~= tapLocation.y {
+                    } else if 40..<110 ~= tapLocation.x && 510..<560 ~= tapLocation.y {
                         withAnimation {
                             showButton3.toggle()
                             showButton = false
@@ -134,7 +142,7 @@ struct co: View {
                             showButton5 = false
                             showButton6 = false
                         }
-                    } else if 170..<225 ~= tapLocation.x && 320..<370 ~= tapLocation.y {
+                    } else if 175..<215 ~= tapLocation.x && 380..<430 ~= tapLocation.y {
                         withAnimation {
                             showButton4.toggle()
                             showButton = false
@@ -143,7 +151,7 @@ struct co: View {
                             showButton5 = false
                             showButton6 = false
                         }
-                    } else if 285..<360 ~= tapLocation.x && 290..<380 ~= tapLocation.y {
+                    } else if 285..<360 ~= tapLocation.x && 350..<440 ~= tapLocation.y {
                         withAnimation {
                             showButton5.toggle()
                             showButton = false
