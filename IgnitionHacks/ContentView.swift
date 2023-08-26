@@ -13,7 +13,7 @@ struct ContentView: View {
            
             Text("Welcome to Loops Learning!")
                 .font(.custom("Optima-Regular", size: 30))
-            Text("This is an app for crochet beginners to find free patterns to help them learn the basics.")
+            Text("Beginners can learn how to crochet through simple patterns and more resources.")
         }
         
     }
