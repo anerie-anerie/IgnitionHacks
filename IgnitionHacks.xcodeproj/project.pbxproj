@@ -14,6 +14,9 @@
 		B17E27D82A9A55DD00B65E6C /* co.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27D72A9A55DD00B65E6C /* co.swift */; };
 		B17E27DA2A9A613200B65E6C /* hat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27D92A9A613200B65E6C /* hat.swift */; };
 		B17E27DC2A9A63CF00B65E6C /* Octopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27DB2A9A63CF00B65E6C /* Octopus.swift */; };
+		B17E27DE2A9A66F900B65E6C /* granny.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27DD2A9A66F900B65E6C /* granny.swift */; };
+		B17E27E02A9A6AA200B65E6C /* sweater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27DF2A9A6AA200B65E6C /* sweater.swift */; };
+		B17E27E22A9A6AAD00B65E6C /* sprout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17E27E12A9A6AAD00B65E6C /* sprout.swift */; };
 		B17F73262A9A424400D91523 /* handBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F73252A9A424400D91523 /* handBook.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		B17E27D72A9A55DD00B65E6C /* co.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = co.swift; sourceTree = "<group>"; };
 		B17E27D92A9A613200B65E6C /* hat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hat.swift; sourceTree = "<group>"; };
 		B17E27DB2A9A63CF00B65E6C /* Octopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Octopus.swift; sourceTree = "<group>"; };
+		B17E27DD2A9A66F900B65E6C /* granny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = granny.swift; sourceTree = "<group>"; };
+		B17E27DF2A9A6AA200B65E6C /* sweater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweater.swift; sourceTree = "<group>"; };
+		B17E27E12A9A6AAD00B65E6C /* sprout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprout.swift; sourceTree = "<group>"; };
 		B17F73252A9A424400D91523 /* handBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +68,9 @@
 				B11E747F2A9972D400C5FF00 /* IgnitionHacksApp.swift */,
 				B11E74812A9972D400C5FF00 /* ContentView.swift */,
 				B17E27D72A9A55DD00B65E6C /* co.swift */,
+				B17E27DF2A9A6AA200B65E6C /* sweater.swift */,
+				B17E27E12A9A6AAD00B65E6C /* sprout.swift */,
+				B17E27DD2A9A66F900B65E6C /* granny.swift */,
 				B17E27DB2A9A63CF00B65E6C /* Octopus.swift */,
 				B17E27D92A9A613200B65E6C /* hat.swift */,
 				B17F73252A9A424400D91523 /* handBook.swift */,
@@ -150,10 +159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11E74822A9972D400C5FF00 /* ContentView.swift in Sources */,
+				B17E27E22A9A6AAD00B65E6C /* sprout.swift in Sources */,
 				B17E27D82A9A55DD00B65E6C /* co.swift in Sources */,
 				B11E74802A9972D400C5FF00 /* IgnitionHacksApp.swift in Sources */,
+				B17E27E02A9A6AA200B65E6C /* sweater.swift in Sources */,
 				B17F73262A9A424400D91523 /* handBook.swift in Sources */,
 				B17E27DA2A9A613200B65E6C /* hat.swift in Sources */,
+				B17E27DE2A9A66F900B65E6C /* granny.swift in Sources */,
 				B17E27DC2A9A63CF00B65E6C /* Octopus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
