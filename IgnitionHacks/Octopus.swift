@@ -27,6 +27,7 @@ struct Octopus: View {
     @State private var isChecked14 = false
     @State private var isChecked15 = false
  
+    //needed for adding url web link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -51,6 +52,7 @@ struct Octopus: View {
                     //used to scroll
                             
                             VStack {
+                                //multiple VStacks needed because there was too much text in one
                                 Text("Octopus Plushie Pattern")
                                     .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                     .font(Font.custom("Optima-Regular", size: 35))
@@ -90,6 +92,7 @@ struct Octopus: View {
                                         .font(Font.custom("Optima-Regular", size: 20))
                                         .multilineTextAlignment(.center)
                                     
+                                    //each step has a toggle option in an HStack for horizontal items
                                     HStack (spacing: -240.0) {
                                     Text("Round 1: Create a magic circle with 6sc. (total: 6 st)")
                                         .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
@@ -244,6 +247,7 @@ struct Octopus: View {
                                         .padding(.trailing)
                                     }
                                     
+                                    //adjusted spacing values based on amount of text for better visuals
                                     HStack (spacing: -800){
                                         Text("Round 16: 6dec (total: 6 st)")
                                             .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
@@ -287,6 +291,7 @@ struct Octopus: View {
                                         .multilineTextAlignment(.trailing)
                                         .padding(.leading)
                                     
+                                    
                                     WebView(urlString: "https://www.youtube.com/watch?v=L6VDIcNsnr0")
                                         .frame(width: 300.0, height: 300.0)
                                     
@@ -304,6 +309,7 @@ struct Octopus: View {
                                         .multilineTextAlignment(.trailing)
                                         .padding(.top)
                                     
+                                    //nav links used for easy access to stitch info instead of going through the handbook
                                     NavigationLink(destination: singleCrochet()) {
                                         Text("Single Crochet")
                                             .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))

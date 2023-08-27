@@ -10,6 +10,7 @@ import WebKit
 
 struct chain: View {
     
+    //used for adding the web url link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -83,6 +84,7 @@ struct chain: View {
                         .multilineTextAlignment(.center)
                         .padding([.top, .leading, .trailing])
                         
+                        //WebView initalized in struct above
                         WebView(urlString: "https://www.youtube.com/watch?v=7v-mssy5rKU")
                             .frame(width: 300.0, height: 300.0)
                         

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct co: View {
+    
+    //buttons delcaration for coordinate system
     @State private var showButton = false
     @State private var showButton2 = false
     @State private var showButton3 = false
@@ -17,12 +19,17 @@ struct co: View {
     @State private var tapLocation: CGPoint? = nil
     
     var body: some View {
+        
         NavigationView {
+            
             ZStack {
+                
                 Color(red: 0.412, green: 0.063, blue: 0.41)
                     .ignoresSafeArea()
                     .overlay(
+                        
                         VStack {
+                            
                             Text("Loops Learning Desk")
                                 .font(.custom("Optima-Regular", size: 35))
                                 .foregroundColor(Color(red: 1.0, green: 0.923, blue: 0.798))
@@ -34,10 +41,13 @@ struct co: View {
                                 .multilineTextAlignment(.center)
                                 .padding([.top, .leading, .trailing])
                             
+                            //main menu items
                             Image("desk")
                                 .resizable()
                                 .scaledToFit()
                             
+                            //if statment for specific button view and color scheme to match the item
+                            //so if in previous code the correct coordinates were entered the button with the navigation link should appear to bring you to a new view
                             if showButton {
                                 NavigationLink(destination: handBook()) {
                                     Text("Beginner's Handbook")
@@ -112,9 +122,11 @@ struct co: View {
                         }
                     )
             }
+            //locates the pressed coordinates
             .onTapGesture { location in
                 tapLocation = location
                 if let tapLocation = tapLocation {
+                    //measures if coordinates were in a certain range then the correct button of the item will appear
                     if 150..<245 ~= tapLocation.x && 480..<580 ~= tapLocation.y {
                         withAnimation {
                             showButton.toggle()

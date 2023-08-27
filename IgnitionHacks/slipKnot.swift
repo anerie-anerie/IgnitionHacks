@@ -10,6 +10,7 @@ import WebKit
 
 struct slipKnot: View {
     
+    //used for adding the web url link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -88,6 +89,7 @@ struct slipKnot: View {
                         .multilineTextAlignment(.center)
                         .padding([.top, .leading, .trailing])
                         
+                        //WebView initalized in struct above
                         WebView(urlString: "https://www.youtube.com/watch?v=oj21JDDSrgM")
                             .frame(width: 300.0, height: 300.0)
                         

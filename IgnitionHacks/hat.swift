@@ -19,7 +19,7 @@ struct hat: View {
     @State private var isChecked7 = false
     @State private var isChecked8 = false
 
- 
+ //needed for adding url web link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -43,6 +43,7 @@ struct hat: View {
                 //used to scroll
                         
                         VStack {
+                            //multiple VStacks needed because there was too much text in one
                             Text("Beanie Pattern")
                                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                 .font(Font.custom("Optima-Regular", size: 35))
@@ -74,6 +75,7 @@ struct hat: View {
                                     .font(Font.custom("Optima-Regular", size: 20))
                                     .multilineTextAlignment(.center)
                                 
+                                //each step has a toggle option in an HStack for horizontal items
                                 HStack (spacing: -240.0) {
                                 Text("Row 1: Slip knot and chain 30 (adjust to length of hat wanted).")
                                     .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
@@ -201,6 +203,7 @@ struct hat: View {
                                     .multilineTextAlignment(.trailing)
                                     .padding(.top)
                                 
+                                //nav links attach the words to view for easy access instead of going through the handbook
                                 NavigationLink(destination: singleCrochet()) {
                                     Text("Single Crochet")
                                         .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))

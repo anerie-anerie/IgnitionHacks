@@ -10,6 +10,7 @@ import WebKit
 
 struct hdCrochet: View {
     
+    //used for adding the web url link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -89,6 +90,7 @@ struct hdCrochet: View {
                         .multilineTextAlignment(.center)
                         .padding([.top, .leading, .trailing])
                         
+                        //WebView initalized in struct above
                         WebView(urlString: "https://www.youtube.com/watch?v=f9C1C21MNiM")
                             .frame(width: 300.0, height: 300.0)
                         

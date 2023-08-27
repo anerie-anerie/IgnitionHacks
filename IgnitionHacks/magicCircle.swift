@@ -7,8 +7,10 @@
 
 import SwiftUI
 import WebKit
+
 struct magicCircle: View {
     
+    //used for adding the web url link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -53,7 +55,7 @@ struct magicCircle: View {
                             .padding([.top, .leading, .trailing])
                         
                       
-                        
+                        //WebView initalized in struct above
                         WebView(urlString: "https://www.youtube.com/watch?v=zsWmVcp9RMU&t=0s")
                             .frame(width: 300.0, height: 300.0)
                         

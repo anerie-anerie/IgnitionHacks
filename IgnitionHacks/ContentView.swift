@@ -9,15 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
         NavigationStack {
+            
             ZStack {
+                
                 Color(red: 0.412, green: 0.063, blue: 0.41)
                     .ignoresSafeArea()
                     .overlay(
                         VStack {
-                            
+                            //starting page
                             Text("Welcome to")
+                            
+                            //used a custom font
                                 .font(.custom("Optima-Regular", size: 24))
+                            
+                            //used custom color scheme
                                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                 .multilineTextAlignment(.center)
                             
@@ -36,6 +43,7 @@ struct ContentView: View {
                                 .multilineTextAlignment(.center)
                                 .padding()
                           
+                            //leads to main menu
                             NavigationLink (destination: co()) {
                                     Text("Start Learning")
                                         .font(.custom("Optima-Regular", size: 20))

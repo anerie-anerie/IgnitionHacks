@@ -7,8 +7,10 @@
 
 import SwiftUI
 import WebKit
+
 struct increase: View {
     
+    //used for adding the web url link
     struct WebView: UIViewRepresentable {
         let urlString: String
 
@@ -87,7 +89,8 @@ struct increase: View {
                         .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                         .multilineTextAlignment(.center)
                         .padding([.top, .leading, .trailing])
-                        
+                       
+                        //WebView initalized in struct above
                         WebView(urlString: "https://www.youtube.com/watch?v=CvD1qrrRX5c")
                             .frame(width: 300.0, height: 300.0)
                         

@@ -9,11 +9,15 @@ import SwiftUI
 struct handBook: View {
     
     var body: some View {
+        
         NavigationView {
+            
             ZStack {
+                
                 Color(red: 0.5, green: 0.179, blue: 0.239)
                     .ignoresSafeArea()
                     .overlay(
+                        
                         VStack {
                             
                             Text("Welcome to Learning Loops Handbook!")
@@ -28,6 +32,7 @@ struct handBook: View {
                                 .multilineTextAlignment(.center)
                                 .padding([.top, .leading, .trailing])
                             
+                            //created buttons for different views in horizontal rows of 3
                             HStack {
                                 NavigationLink (destination: slipKnot()) {
                                     Text("slip knot")
