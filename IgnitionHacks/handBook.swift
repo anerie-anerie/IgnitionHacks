@@ -9,7 +9,7 @@ import SwiftUI
 struct handBook: View {
     
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ZStack {
                 Color(red: 0.5, green: 0.179, blue: 0.239)
                     .ignoresSafeArea()

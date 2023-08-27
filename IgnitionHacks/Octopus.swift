@@ -45,7 +45,7 @@ struct Octopus: View {
     
     var body: some View {
       
-            NavigationStack {
+            NavigationView {
                 
                 ScrollView {
                     //used to scroll

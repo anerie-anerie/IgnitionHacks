@@ -39,7 +39,7 @@ struct sprout: View {
         }
     }
     var body: some View {
-        NavigationStack {
+        NavigationView {
             
             ScrollView {
                 //used to scroll
@@ -72,7 +72,7 @@ struct sprout: View {
                             }
                             
                             VStack {
-                                Text("Materials: Acrylic (size 4 to 5), 4 to 5 mm hook, Yarn needle (for sewing ends)")
+                                Text("Materials: Acrylic yarn(size 4 to 5), 4 to 5 mm hook, Yarn needle (for sewing ends)")
                                     .padding(.horizontal)
                                     .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                     .font(Font.custom("Optima-Regular", size: 13))

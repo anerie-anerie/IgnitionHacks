@@ -23,7 +23,7 @@ struct co: View {
                     .ignoresSafeArea()
                     .overlay(
                         VStack {
-                            Text("Learning Loops Desk")
+                            Text("Loops Learning Desk")
                                 .font(.custom("Optima-Regular", size: 35))
                                 .foregroundColor(Color(red: 1.0, green: 0.923, blue: 0.798))
                                 .multilineTextAlignment(.center)

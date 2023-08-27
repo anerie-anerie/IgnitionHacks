@@ -41,12 +41,14 @@ struct granny: View {
     }
     var body: some View {
        
-        NavigationStack {
+        NavigationView {
             
             ScrollView {
                 //used to scroll
                         
                         VStack {
+                           
+                            
                             Text("Granny Square Pattern")
                                 .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                 .font(Font.custom("Optima-Regular", size: 35))
@@ -71,7 +73,7 @@ struct granny: View {
                             }
                             
                             VStack {
-                                Text("Materials: Acrylic (size 4 to 5), Stitch marker, 4 to 5 mm hook, Yarn needle (for sewing ends)")
+                                Text("Materials: Acrylic yarn(size 4 to 5), Stitch marker, 4 to 5 mm hook, Yarn needle (for sewing ends)")
                                     .padding(.horizontal)
                                     .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
                                     .font(Font.custom("Optima-Regular", size: 13))
