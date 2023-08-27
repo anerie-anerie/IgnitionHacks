@@ -22,14 +22,7 @@ struct granny: View {
     @State private var isChecked11 = false
     @State private var isChecked12 = false
     @State private var isChecked13 = false
-    @State private var isChecked14 = false
-    @State private var isChecked15 = false
-    @State private var isChecked16 = false
-    @State private var isChecked17 = false
-    @State private var isChecked18 = false
-    @State private var isChecked19 = false
-    @State private var isChecked20 = false
-    @State private var isChecked21 = false
+    
     
     struct WebView: UIViewRepresentable {
         let urlString: String
@@ -303,6 +296,13 @@ struct granny: View {
                                 
                                 NavigationLink(destination: slipKnot()) {
                                     Text("Slip Knot")
+                                        .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))
+                                        .font(Font.custom("Optima-Regular", size: 15))
+                                        .multilineTextAlignment(.trailing)
+                                }
+                                
+                                NavigationLink(destination: chain()) {
+                                    Text("Chain")
                                         .foregroundColor(Color(red: 0.991, green: 0.639, blue: 0.704))
                                         .font(Font.custom("Optima-Regular", size: 15))
                                         .multilineTextAlignment(.trailing)
