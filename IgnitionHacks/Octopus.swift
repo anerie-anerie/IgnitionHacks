@@ -297,6 +297,12 @@ struct Octopus: View {
                                         .font(Font.custom("Optima-Regular", size: 25))
                                         .multilineTextAlignment(.trailing)
                                         .padding(.top)
+                                  
+                                    Text("For instructions click the stitch name.")
+                                        .foregroundColor(Color(red: 1.002, green: 0.923, blue: 0.798))
+                                        .font(Font.custom("Optima-Regular", size: 18))
+                                        .multilineTextAlignment(.trailing)
+                                        .padding(.top)
                                     
                                     NavigationLink(destination: singleCrochet()) {
                                         Text("Single Crochet")
